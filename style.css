@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.wrapper {
+    background: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ap_player {
+    width: 400px;
+    max-width: 100%;
+    background: #f1f3f4;
+    padding: 20px 30px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    border-radius: 35px;
+    box-shadow: 4px 4px 12px rgb(228 226 235 / 72%);
+    position: relative;
+    overflow: hidden;
+}
+
+.ap_top_bar {
+    position: relative;
+}
+
+.backBtnFromPlayer {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.backBtnFromPlayer img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.nowPlayingText {
+    color: #533b71;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+
+.ap_currentSong_banner {
+    margin-top: 25px;
+}
+
+.ap_currentSong_banner img {
+    width: 100%;
+    border-radius: 25px
+}
+
+.ap_currentSong_Name {
+    text-align: center;
+    margin: 25px 0px 10px;
+}
+
+.ap_currentSong_Name p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #533b71;
+}
+
+.ap_currentSong_Name span {
+    font-size: 12px;
+    color: #533b71;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.ap_audioPlayer audio {
+    width: 100%;
+}
+
+.ap_upNext_song {
+    display: flex;
+    flex-wrap: wrap;
+    background: #e4e2eb;
+    border-radius: 8px;
+    padding: 10px 15px 12px;
+    margin-top: 15px;
+}
+
+.ap_upNext_song h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.ap_upNext_song figure {
+    width: 50px;
+}
+
+.ap_upNext_song figure img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+p.songName {
+    width: calc(100% - 60px);
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.ap_app_controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background: #523872;
+    padding: 20px 0px;
+    box-shadow: 0px -4px 15px rgb(0 0 0 / 5%);
+}
+
+.ap_app_controls ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ap_app_controls ul li {
+    width: calc(100% / 4);
+    text-align: center;
+}
+
+.ap_app_controls ul li span {
+    cursor: pointer;
+}
+
+.ap_app_controls ul li img {
+    width: 25px;
+}
