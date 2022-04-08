@@ -153,3 +153,24 @@ p.songName {
 .ap_app_controls ul li img {
     width: 25px;
 }
+
+@media screen and (max-width:500px){
+    .wrapper {
+        background: #f1f3f4;
+        padding: 0;
+    }
+    
+    .wrapper .container{
+        padding: 0;
+    }
+    
+    .ap_player {
+        width: 100%;
+        border-radius: 0;
+        box-shadow: unset;
+    }
+    
+    .ap_app_controls {
+        position: fixed;
+    }
+}
